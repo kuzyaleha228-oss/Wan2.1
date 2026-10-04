@@ -1,0 +1,11 @@
+# Готовый фильм и тяжёлые промежуточные данные не храним в git —
+# они воспроизводятся одной командой: python3 build/pipeline.py
+out/*.mp4
+audio/music.wav
+audio/mix.wav
+build/text/
+build/__pycache__/
+build/qc_*.jpg
+
+# Ключевые кадры (frames/), озвучка (audio/line*.mp3),
+# сценарий и скрипты — версионируются.
